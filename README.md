@@ -25,3 +25,25 @@ The-hood is a web application created to help give information about a neighborh
 | Search for different neighbourhoods  | neighbourhood name                       | displays  neighbourhood details   |
 | search for businesses  | click a button                          | displays businesses in the neighbourhood |
 
+
+
+##  Prerequisites
+* Python3.6
+* django
+* Postgresql
+
+## Setup/Installation Requirements
+* Internet access
+* $ git clone : https://github.com/melisajuma/The-Hood.git
+* $ cd Awards
+* $ python3.6 -m venv virtual (install virtual environment)
+* $ source virtual/bin/activate
+* $ python3.6 -m pip install -r requirements.txt (install all dependencies)
+*  Run "python3 manage.py runserver" from the terminal
+
+## How the app works
+* A user needs to log in if they have na existing account
+* A user can sign up if they do not have an account
+* A user then can be able to view neighbourhood details, other neighbourhood details and their businesses. The site will also provide important announcements and alerts of neighbourhood events.
+
+
