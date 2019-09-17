@@ -36,4 +36,19 @@ class Location(models.Model):
 
 
 
-    
+    def save_loc(self):
+        self.save()
+
+    def delete_loc(self):
+        self.delete()
+
+
+    def __str__(self):
+        return self.name
+
+
+
+
+
+
+
