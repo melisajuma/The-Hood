@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class MicasaConfig(AppConfig):
-    name = 
+    name = 'micasa'
