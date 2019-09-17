@@ -14,4 +14,10 @@ class ProfileForm(forms.ModelForm):
         model = Profile
         exclude = ['user',]
 
+class BusinessForm(forms.ModelForm):
+    class Meta:
+        model  = Business
+        fields = ['business_name','hood','address','owner','category']
+
+
 
