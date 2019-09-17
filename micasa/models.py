@@ -66,4 +66,15 @@ class Hood(models.Model):
 
 
 
+    class Meta:
+        ordering = ['-pk']
+
+    def save_hood(self):
+        self.save()
+
+
+    def delete_hood(self):
+        self.delete()
+
+
    
