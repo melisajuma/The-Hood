@@ -9,3 +9,9 @@ class HoodForm(forms.ModelForm):
         fields = ['name', 'location','image',]
 
 
+class ProfileForm(forms.ModelForm):
+    class Meta:
+        model = Profile
+        exclude = ['user',]
+
+
