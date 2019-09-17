@@ -47,3 +47,32 @@ The-hood is a web application created to help give information about a neighborh
 * A user then can be able to view neighbourhood details, other neighbourhood details and their businesses. The site will also provide important announcements and alerts of neighbourhood events.
 
 
+## Contacts
+For further questions you can send an email to Melisaakinyi95@gmail.com
+
+## Known bugs
+
+No known errors. However, if found, contact me: Melisaakinyi95@gmail.com 
+
+## Technologies used 
+
+* Python3.6
+* django framework
+* Bootstrap
+* PostgreSQL
+
+    
+## Contributing
+
+Any contributions to this projects will be greatly appreciated. If you want to contribute to it, here are the suggested instructions:
+* Clone this GitHub repository to your local machine.
+
+```buildoutcfg
+git clone https://github.com/melisajuma/The-Hood.git
+```
+* Make your contributions.
+* Email me the zipped project at Melisaakinyi95@gmail.com , or
+* Request permissions to post your contribution at my GitHub repository through the same email address.
+
+
+
