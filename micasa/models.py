@@ -90,3 +90,19 @@ class Hood(models.Model):
 
 
 
+class Profile(models.Model):
+    profile_pic = models.ImageField(upload_to = 'profile/',blank=True)
+    user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)
+    bio = models.CharField(max_length = 255,null = True)
+    full_name = models.CharField(max_length=255, null=True)
+    hood = models.ForeignKey(Hood,null=True)
+
+    def __str__(self):
+        return self.user.username
+
+    def save_profile(self):
+        self.save()
+
+
+
+    
