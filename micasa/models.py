@@ -77,4 +77,16 @@ class Hood(models.Model):
         self.delete()
 
 
-   
+    @classmethod
+    def search_hood(cls, search_term):
+        hood = Hood.objects.filter(name__icontains=search_term)
+        return hood
+
+
+    def __str__(self):
+        return self.name
+
+
+
+
+
